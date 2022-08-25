@@ -1,7 +1,7 @@
 module.exports = {
     TOKEN: "your token",
     ownerID: "Thats_My_Idea#2941", //write your discord user id.
-    botInvite: "", //write your discord bot invite.
+    botInvite: "https://discord.com/api/oauth2/authorize?client_id=942280522749608017&permissions=8&scope=bot", //write your discord bot invite.
     status: ' Parsa Dj ',
     commandsDir: './commands', //Please don't touch
 
