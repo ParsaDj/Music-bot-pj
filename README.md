@@ -10,7 +10,8 @@
 
 
 ## NOTE: IF THE BOT IS WORKING, RESPONDING TO COMMANDS BUT NO SOUND, FOLLOW THESE STEPS:
-
+- Type nmp i ffmpeg
+- Type npm i ffmpeg-static
 - Type npm uni discord-player
 - Type npm i discord-player@5.3.0-dev.2
 - Type npm uni ytdl-core
