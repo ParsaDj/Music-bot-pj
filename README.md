@@ -25,7 +25,7 @@
 ![image](https://user-images.githubusercontent.com/4060573/181926061-310e817a-97c5-48d8-adce-77a505c36336.png)
 
 ## Support/Contributing
-- [Click here to join the Discord](https://discord.gg/Fy4WmSThRZ)
+- [Click here to join the Discord](https://discord.gg/E9ZXmpz574)
 
 ### Links
 
