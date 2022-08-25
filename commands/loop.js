@@ -3,7 +3,7 @@ const { EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('
 const db = require("croxydb");
 module.exports = {
   name: "loop",
-  description: "Turns the music loop mode on or off.",
+  description: "Music loop mode on or off.",
   permissions: "0x0000000000000800",
   options: [],
   run: async (client, interaction) => {

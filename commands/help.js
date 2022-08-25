@@ -1,7 +1,7 @@
 const { EmbedBuilder } = require('discord.js')
 module.exports = {
     name: "help",
-    description: "It helps you to get information about bot and commands.",
+    description: "Get information about bot and commands.",
     permissions: "0x0000000000000800",
     options: [],
     showHelp: false,
@@ -13,7 +13,7 @@ module.exports = {
             .setColor('007fff')
             .setTitle(client.user.username)
             .setThumbnail(client.user.displayAvatarURL())
-            .setDescription("It's time to listen to music on your discord server with a completely free and advanced interface. Music bot that supports playing music on many platforms that will make your server feel special. Create your own music bot: https://github.com/Parsadj")
+            .setDescription("Music bot that supports playing music from many platforms and will make your server feel special. Create your own music bot: https://github.com/ParsaDj/Music-bot-pj")
             .addFields([
                 { name: `Bot Commands`, value: commands.map(x => `\`/${x.name}\``).join(' | ') }
             ])
