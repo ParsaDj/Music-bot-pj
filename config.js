@@ -1,4 +1,5 @@
 module.exports = {
+  // add this to hide Token and userid from others.
   TOKEN: process.env.TOKEN, // give token from environment
   ownerID: process.env.DISCORD, // get owner ID from environment
   botInvite:
