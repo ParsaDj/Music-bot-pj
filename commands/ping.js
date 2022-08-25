@@ -19,7 +19,7 @@ module.exports = {
           { name: `API Latency`, value: `\`${Math.round(client.ws.ping)}ms\` 🛰️` }
         ])
         .setTimestamp()
-        .setFooter({ text: `Code Share - by Umut Bayraktar ❤️` })
+        .setFooter({ text: `Code Share - by Parsa DJ` })
       return interaction.editReply({ embeds: [embed] }).catch(e => { });
     }).catch(err => { })
   },
