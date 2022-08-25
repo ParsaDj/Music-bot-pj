@@ -52,7 +52,7 @@ player.on('trackStart', (queue, track) => {
   if (queue) {
     if (!client.config.opt.loopMessage && queue.repeatMode !== 0) return;
     if (queue.metadata) {
-      queue.metadata.send({ content: `🎵 Now playing: **${track.title}** -> Channel: **${queue.connection.channel.name}** 🎧` }).catch(e => { });
+      queue.metadata.send({ content: `🎵 Now playing: **${track.title}** -> Channel: **${queue.connection.channel.name}** 🎶` }).catch(e => { });
     }
   }
 });
@@ -68,7 +68,7 @@ player.on('trackAdd', (queue, track) => {
 player.on('channelEmpty', (queue) => {
   if (queue) {
     if (queue.metadata) {
-      queue.metadata.send({ content: `I disconnected because there is no one left in my channel. ❌` }).catch(e => { })
+      queue.metadata.send({ content: `I left because there is no one left in my channel. 🥲 ❌` }).catch(e => { })
     }
   }
 });
@@ -104,7 +104,7 @@ if (config.TOKEN || process.env.TOKEN) {
   })
 } else {
   setTimeout(() => {
-    console.log("Please set the bot token in token.js or in your .env file in your project!")
+    console.log("Please set the bot token in config.js !")
   }, 2000)
 }
 
